@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3school template</title>
+    <link rel="stylesheet" href="w3school.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+    body {
+        width:1300px;
+        background-color: #f1f1f1;
+        }
+    html body, h1, h2, h3, h5, p{
+        font-family:  "Raleway", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+        .nav {
+    width: 1320px;
+    font-family: Raleway, Arial, Helvetica, sans-serif; 
+    background-color: white;
+   }
+   ul{
+     width: auto;
+     list-style-type: none;
+     overflow: hidden;
+     display: block;
+     
+   }
+   li{
+    float: left;
+    
+   }
+   
+   
+   ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+   }
+   a{
+     color:  black;
+    display: block;
+     text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 18px;
+   }      
+       .same :hover {
+        background-color: #f1f1f1;
+        color: black;
+       }
+       #logo {
+        color: white;
+        background-color: #F44336; 
+       }
+       #book {
+        float: right;
+        background-color: #cccccc;
+        /* *{margin: 0px;} */
+        /* padding-right: 20px; */
+    }
+    .white {
+        color: white;
+    }
+    /* <!--finish Nav Css--> */
+    .image {
+        padding-top: 0px;
+        padding: 0px -1px 0px -2px;
+    }
+    /* img{
+        width: 1300px;
+        height: 700px;
+    } */
+    .mainhotel {
+        width: 650px;
+        height:340px;
+        background-color: white;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        float: left;
+        box-sizing: inherit;
+        /* display: block; */
+        
+    }
+    .HotelName {
+        background-color: #F44336;
+        padding: 15px 0px 10px 0px;
+        color: white; 
+        font: 18px "Raleway", Arial, Helvetica, sans-serif ;
+    }
+    .HotelName, h2 {
+        font: 18px;
+        font-weight: 400;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+    }
+    .date {
+        padding: 8px 25px 8px 30px;
+    }
+    .inout {
+         margin: 25px 0px 0px 25px;
+    }
+    .number {
+        margin-top: 10px;
+        padding: 8px 25px 8px 30px;
+    }
+    .adultkid {
+        margin: 0px 0px 0px 25px;
+    }
+    .checkin {
+         float: left;
+         margin: 0px 80px 0px 10px;
+    }
+    .checkout {
+        margin: 0px 80px 0px 0px;
+        float: left;
+    }
+    .adults {
+        margin: 30px 0px 0px 10px;
+        float: left;
+    }
+    .kids {
+        
+        float: left;
+        margin: 30px 0px 0px 80px;
+    }
+    .button {
+        float: left;
+    }
+    button {
+        background-color: #616161;
+        margin: 30px 0px 0px 30px;
+        padding: 10px 20px 10px 20px;  
+        color: #f1f1f1;
+        cursor: pointer;
+        display: block;
+        border: none; 
+    }
+    .button :hover {
+         background-color: #f1f1f1;
+         color: #000000;
+    }
+    .Room {
+        width: 1300px;
+        font-style: 18px "Raleway", Arial, Helvetica, sans-serif ;
+    }
+    .Room, h2, p{
+        padding: 5px 0px 10px 5px;
+    }
+    #zero {
+      float: left;
+      margin: 0px 10px 0px 5px;
+      border-radius: 1px solid grey;
+    }
+    #one {
+        float: left;
+        margin: 0px 0px 0px 20px;
+        border-radius: 1px solid grey;
+    }
+    #two {
+        float: left;
+        margin: 0px 40px 0px 30px;
+        border-radius: 2px solid grey;
+    }
+    #three {
+        float: left;
+        margin: 0px 40px 0px 30px;
+        border-radius: 1px solid grey;
+    }
+    #four {
+        /* float: left; */
+        margin: 0px 0px 0px 100px;
+    }
+    #four :hover { 
+        background-color: #f1f1f1;
+        color: black;
+    }
+    .one {
+        width : 260px;
+        margin: 0px 10px 0px 0px;
+        padding: 8px;
+    }
+    .label {
+        width: 150px;
+        padding: 8px;
+        
+    }
+    .button5 {
+        width: 180px;
+        background-color: black;
+        color: white;
+        margin: 0px 100px 0px 0px;
+        padding: 10px;
+    }
+    
+    /* <!--Star bedimg--> */
+    .bedimg {
+        width:1300px; 
+        margin-bottom: 0px;
+        font-style: 18px "Raleway", Arial, Helvetica, sans-serif ;
+    }
+    .bedimgbutton{
+        padding: 10px 120px 10px 120px;
+        align-items: center;
+        background-color:#070000;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .button2 {
+        padding: 10px 120px 10px 120px;
+        align-items: center;
+        background-color:#070000;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .button3 {
+        padding: 10px 120px 10px 120px;
+        align-items: center;
+        background-color:#070000;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+     h6{
+        opacity: 0.6;
+    } 
+    /* .singleroom {
+        float: left;
+        width: 430;
+        margin: 0px 0px 10px 15px;
+        
+    }
+    .Doubleroom {
+        float: left;
+        margin: 0px 15px 10px 10px;
+        
+       
+    }
+    .deluxeroom {
+        margin: 0px 0px 10px 10px;
+        
+    } */
+
+    #single {
+        background-color: black;
+        color: white;
+    }
+    /* <!--end--> */
+    /* <!--start--> */
+    div.eight {
+        float: left;
+        margin: 5px 0px 40px 12px;
+        background-color: white;
+    }
+    .button6 :hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+   h6 {
+        text-align: justify;
+        text-overflow: clip;
+        margin: 10px;
+        /* margin-bottom: 20px; */
+        margin-top: 20px;
+        font-weight: 400;
+    }
+  /* start css about aboutimg */
+    .aboutimg {
+    width: 1300px;
+    margin-top: 30px;
+    margin: 30px 20px 20px 0px;
+    float: left;
+    font-weight: 400;
+}
+.about {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 0px 10px 0px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 18px "Raleway", Arial, Helvetica, sans-serif;
+}
+.map {
+    margin-left: 30px;
+    filter: grayscale(75%);
+}
+/* <!--End about image--> */
+/* <!--stat ANE--> */
+.Addressmailphone {
+    width: 1300px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.location {
+    float: left;
+    margin: 0px 80px 0px 130px;
+}
+.phone {
+    margin: 0px 250px 0px 120px;
+    float: left;
+}
+.Email {
+    margin: 150px 20px 0px 50px;
+}
+/* <!--end ANE--> */
+/* <!--start demand Div css--> */
+.demand {
+    background-color: #F44336;
+    padding: 30px 0px 30px 20px;
+    font-family:  "Raleway", Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    /* margin: 10px; */
+    
+}
+
+.bestoffer1 {
+    background-color: grey;
+    color: white;
+    box-sizing: inherit;
+    margin-top: 30px;
+    /* padding: 20px; */
+    font-family: 18px "Raleway", Arial, Helvetica, sans-serif;
+    
+}
+
+.bestoffer1 :hover  {
+    background-color: black;
+    color: white;
+}
+.bestoffer {
+    padding: 30px 30px 30px 30px;
+    /* text-align: left 20%; */
+    font-family: 18px "Raleway", Arial, Helvetica, sans-serif;
+}
+#mail {
+    width: 1200px;
+    padding: 8px;
+    background-color: white;
+    color: #000000;
+    border: 2px solid #f1f1f1;
+}
+#button {
+    width: 100px;
+    padding: 12px 20px 12px 10px;
+    background-color: #F44336;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: 16px "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#button:hover {
+    background-color: #f1f1f1 !important;
+    color: black;
+}
+.contact {
+    margin: 10px;
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; 
+}
+.place {
+    width: 1200px;
+    padding: 16px;
+    margin-left: 15px;
+    border: 2px solid #ccc;
+}
+.send {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+}
+.send:hover {
+       background-color: #f1f1f1;
+       color: black;
+}
+footer {
+    width: 1300px; 
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 32px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    text-align: center;
+    
+}
+.w3-hover-opacity {
+    margin-left: 10px;
+    font-size: 24px ;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.w3-hover-opacity :hover {
+    background-color: #f1f1f1;
+    
+}
+.awesomeicon {
+    /* margin-left: 570px; */
+    margin-top: 20px;
+    
+}
+.footer, p, a{
+    display: inline;
+}
+.footer, h5 {
+     font: 18px "Raleway", Arial, Helvetica, sans-serif; 
+}
+.mainfooter {
+    background-color: black;
+    margin-top: 30px;
+    padding: 50px;
+}
+.fa 
+/* .eight,p {
+    margin-bottom: 20px;
+} */
+/* @media only screen and (max-width: 768px) {
+ .mainfooter{
+    background-color: black;
+
+ }
+} */
+.main {
+      width: 1300px;
+      display: flex;
+    }
+    .one-main {
+         width: 550px;
+         display:flex;
+         float: left;
+         margin: 0px 100px 0px 30px;
+    }
+    .second-main {
+        margin: 10px 0px 10px 0px;
+
+    }
+    .second-one {
+      display: flex;
+      margin: 10px 0px 0px 10px;
+    }
+    .second-two {
+      display: flex;
+      margin: 20px 0px 0px 20px;
+    }
+    .newyork {
+        margin: 0px 0px 0px 20px;
+    }
+    .san {
+        margin: 0px 0px 0px 20px;
+    }
+    .pisa {
+        margin: 0px 0px 0px 0px;
+    }
+    .paris {
+        margin: 0px 0px 0px 20px;
+    }
+    .ff:hover {
+        color: black;
+    }
+   @media only screen and (max-width: 425px){
+       .nav {
+        width: 425px; 
+        padding: ;
+       }
+       #book {
+        float: left;
+        background-color: #cccccc;
+    }
+    a {
+        padding: 10px;
+        font: 16px;
+        }
+        .mainhotel {
+            width: auto;
+            height: auto;
+            padding: 0%;
+            margin: 0px;
+            /* display: flex; */
+        }
+    .inout {
+        display: flex;
+        width: 320px;
+        
+    }
+    .checkout{
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+    .adultkid {
+        display: flex;
+        
+    }
+    .kids {
+        /* margin-left: 100px; */
+        margin-left: px;
+        margin: 100px 0px 0px -225px
+    }
+    .mnp {
+        width: 1300px;
+        
+    }
+    .place {
+        width: 425px;
+    }
+    input {
+        border: 2px solid #ccc;
+    }
+   }
+   
+   @media only screen and(min-width: 768px){
+       .nav {
+        width: 768px; 
+       }
+   }
+   @media only screen and(max-width: 1400px){
+       .nav {
+        width: 1400px; 
+       }
+   }
+ </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul>
+            <li class="same" id="logo" color="white"><a href="#" class="white" ><i class="fa fa-bed w3-margin-right" class="same" style="font-size:18px; color:white;" class="ff"></i>Logo</a></li>
+            <li class="same"><a href="#Rooms" >Rooms</a></li>
+            <li class="same"><a href="#About" >About</a></li>
+            <li class="same"><a href="#Contact" >Contact</a></li>
+            <li class="same" id="book"><a href="#" >Book Now</a></li>
+          </ul>
+         
+        </div> <!--End nav-->
+        <div class="image">
+            <img src="hotel.jpg" alt="Hotel image" width="1322px" height="700px" class="mnp">
+         </div> <!--End one-->
+         <div class="mainhotel">
+         <div class="HotelName">
+              <h2>&nbsp; <i class="fa fa-bed w3-margin-right" style="font-size:28px; color:white;"></i> &nbsp;Hotel Name</h2>
+            </div>
+            
+            <div class="input">
+            <div class="inout">
+               <form action="">
+                <div class="checkin">
+                <label><i class="fa fa-calendar-o"></i>Check In </label><br><input type="text" id-="date" name="date" class="date" required placeholder="DD MM YY">
+               </div>  <!--Check In-->
+               <div class="checkout">
+                <label><i class="fa fa-calendar-o"></i>Check Out </label><br><input type="text" id-="" name="date" class="date" required placeholder="DD MM YY"> 
+               </div><!--Check out-->
+            </div> <!--inout close-->
+            <div class="adultkid">
+               <div class="adults">
+                <label><i class="fa fa-male"></i>Adults </label><br><input type="number" Class="number" name="number" required> 
+               </div><!--close adult-->
+               <div class="kids">
+                <label><i class="fa fa-child"></i>Kids </label><br><input type="number"  name="kids" class="number" required> 
+               </div><!--close kids-->
+            </div>
+               <div class="button">
+               <button><i class="fa fa-search w3-margin-right"></i> Search availability</button>
+            </div>
+               </form>  
+               
+         </div> <!--End Input-->
+        </div> <!--close main hotel-->
+              <!-- image/navigation portion clear -->
+         
+         
+        <div class="Room">
+          <h2>Rooms</h2>
+            <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p><br><br>
+             <form action="">
+                <div id="zero">
+                    <label><i class="fa fa-calendar-o"></i>Check In </label><br><input type="text" class="one" name="date" placeholder="DD MM YY" required> <!--Room Check In-->
+                </div> <!--close zero-->
+                    <div id="one">
+                <label><i class="fa fa-calendar-o"></i>Check Out </label><br><input type="text" class="one" name="date" placeholder="DD MM YY" required> <!--Room Check out-->
+                </div> <!--close one-->
+                <div id="two">
+                <label><i class="fa fa-male"></i>Adults </label><br><input type="number" class="label" name="number" required> <!--Room Adult--> 
+                </div> <!--close two-->
+                <diV id="three">
+                <label><i class="fa fa-child"></i>Kids </label><br><input type="number"  name="kids" class="label" required> <!--Room kids-->
+                </div> <!--close three-->
+                <div id="four">
+                <label><i class="fa fa-search w3-margin-right"></i>Search </label><button class="button5">Search</button> <!--search-->
+                </div> <!--close fourth-->
+             </form>
+        </div> <!--end Room-->
+         
+         </div>
+         
+         
+         <div class="bedimg">
+            <div class="eight">
+         <!-- <div class="singleroom" > -->
+            <img src="room_single.jpg" alt="single room" width="430" height="300">
+              <div id="#single">
+            <h3>&nbsp;&nbsp;&nbsp;Single Room</h3>
+                 <h6>&nbsp;&nbsp;&nbsp; From $99</h6>
+                 <p>&nbsp;&nbsp;&nbsp;Single bed</p><br>
+                 <p>
+                    &nbsp;&nbsp;&nbsp;15m<sup>2</sup>
+                 </p><br>
+                 <p>&nbsp;&nbsp;&nbsp;<i class="fa fa-bath"></i><i class="fa fa-phone"></i><i class="fa fa-wifi"></i></p>
+                 <div class="button6">
+                 <button class="bedimgbutton" class="fourfive">Choose Room</button>
+                </div>
+                </div> 
+        </div> <!--end single room -->
+        <div class="eight">
+        <!-- <div class="Doubleroom"> -->
+            <img src="room_double.jpg" alt="Double room" width="430" height="300">
+            <h3>&nbsp;&nbsp;&nbsp; Double Room</h3>
+                 <h6>&nbsp;&nbsp;&nbsp; From $149</h6>
+                 <p>&nbsp;&nbsp;&nbsp;Queen-size bed</p><br>
+                 <p>
+                    &nbsp;&nbsp;&nbsp;25m<sup>2</sup>
+                 </p><br>
+                 <p>&nbsp;&nbsp;&nbsp;<i class="fa fa-bath"></i><i class="fa fa-phone"></i><i class="fa fa-wifi"></i><i class="fa fa-tv"></i></p>
+                 <div class="button6">
+                 <button class="button2" class="fourfive">Choose Room</button>
+                </div>
+        </div> <!--end double room-->
+        <div class="eight">
+        <!-- <div class="deluxeroom"> -->
+            <img src="room_deluxe.jpg" alt="Deluxe Room" width="400" height="300">
+            <h3>&nbsp;&nbsp;&nbsp; Deluxe Room</h3>
+                 <h6>&nbsp;&nbsp;&nbsp; From $199</h6>
+                 <p>&nbsp;&nbsp;&nbsp;King-size bed</p><br>
+                 <p>
+                    &nbsp;&nbsp;&nbsp;40m<sup>2</sup>
+                 </p><br>
+                 <p>&nbsp;&nbsp;&nbsp;<i class="fa fa-bath"></i><i class="fa fa-phone"></i><i class="fa fa-wifi"></i><i class="fa fa-tv"></i><i class="fa fa-glass"></i><i class="fa fa-cuterly"></i></p>
+                 <div class="button6">
+                 <button class="button3" >Choose Room</button>
+                </div>
+         </div> <!--end double room-->
+        </div> <!--end single double deluxe-->
+
+
+
+        <div class="aboutimg">
+          <div class="about">
+            <h2> About</h2>
+            <h3>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </h3> <p> We accept:<label><i class="fa fa-credit-card w3-large"></i><i class="fa fa-cc-mastercard w3-large"></i><i class="fa fa-cc-amex w3-large"></i></p>
+          </div> <!--close About-->
+          <div class="img">
+            <img src="map.jpg" alt="Map" width="800px" class="map">
+          </div> <!--close img-->
+        </div> <!--close About main-->
+
+        <div class="Addressmailphone">
+           <div class="location">
+            <p><i class="fa fa-map-marker w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336; display:align"></i>423Some adr, chicago, US</p>
+           </div>
+           <div class="phone">
+            <p><i class="fa fa-phone w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336;display:align"></i>Phone: +00 151515</p>
+           </div><!--close phone-->
+           <div class="Email">
+            <p><i class="fa fa-envelope w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336;display:align" ></i>Email: mail@mail.com</p>
+           </div> <!--close email-->
+        </div> <!--close main Adress mail phone-->
+
+
+        <div class="demand">
+            <p><i class="fa fa-info w3-deep-orange w3-padding w3-margin-right"></i>&nbsp;&nbsp; On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
+        </div> <!--close on demand-->
+        
+        <div class="main">
+            <div class="one-main">
+            <div class="cinque">
+              <img src="cinqueterre.jpg" alt="" width="630px" height="430.5px">
+            </div>
+          </div>
+            <div class="second-main">
+              <div class="second-one">
+              <div clss="mewyork">
+                <img src="newyork2.jpg" alt="" width="300px" height="200px">
+              </div>
+              <div class="san">
+                <img src="sanfran.jpg" alt="" width="300px" height="200px">
+              </div>
+              </div>
+              <div class="second-two">
+              <div class="pisa">
+                <img src="pisa.jpg" alt="" width="300px" height="200px">
+              </div>
+              <div class="paris">
+                <img src="paris.jpg" alt="" width="300" height="200px">
+              </div>
+            </div>
+            </div>
+          </div> 
+        <div class="bestoffer1">
+        <div class="bestoffer">
+            <h2>Get the best offers first!</h2>
+            <label>Join our newsletter.</label><br><br>
+                <label>E-mail</label><br>
+            <input type="email" id="mail" name="email" placeholder="Your Email address" required><br>
+            <button id="button" type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>&nbsp; Contact</h2>
+            <p>&nbsp;&nbsp;If you have any questions, do not hesitate to ask them.</p><br>
+            <p>&nbsp;&nbsp;<i class="fa fa-map-marker w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336;display:align"></i> Chicago, US</p><br>
+            <p>&nbsp;&nbsp;<i class="fa fa-phone w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336;display:align"></i> Phone: +00 151515</p><br>
+            <p>&nbsp;&nbsp;<i class="fa fa-envelope w3-text-red" style="font-size:18px; margin-right: 10px; color:#F44336;display:align"></i> Email: mail@mail.com</p><br><br>
+            <form>
+                <input type="text" placeholder="Name" class="place" required><br><br>
+                <input type="email" name="" id="" placeholder="Email" class="place" required><br><br>
+                <input type="text" placeholder="Message" class="place" required>
+                <button type="submit" class="send">SEND MESSAGE</button>
+                <!-- <button class="button button9">Black</button> -->
+            </form>
+        </div> <!--close contact-->
+        <div class="mainfooter">
+        <footer class="footer">
+            <h5 align="center">Find Us On</h5>
+            <div class="awesomeicon">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i><i class="fa fa-instagram w3-hover-opacity"></i><i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i><i class="fa fa-linkedin w3-hover-opacity"></i><br>
+            <p align="center">Powered by <a href="#"style="color:white; text-decoration:underline;" >w3.school</a></p>
+        </footer>
+        </div>
+    </div> <!--main-->
+</body>
+</html>
